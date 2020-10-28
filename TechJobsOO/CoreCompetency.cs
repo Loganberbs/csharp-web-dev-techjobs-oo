@@ -1,11 +1,11 @@
 ﻿using System;
 namespace TechJobsOO
 {
-    public class CoreCompetency
+    public class CoreCompetency 
     {
-        private int id;
+        private int id { get; set; }
         private static int nextId = 1;
-        private string value;
+        private string value { get; set; }
 
         // TODO: Change the fields to auto-implemented properties.
 
@@ -36,5 +36,5 @@ namespace TechJobsOO
             return value;
         }
     }
-    }
 }
+
